@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos_home.css">
     <title>Document</title>
 </head>
 <body>
@@ -10,15 +14,18 @@
         <div class="container-topo">
             <div class="logo">
                 <img src="img/logo-icone.png" alt="Logo">
+                <div class="texto_logo">
+                    <h1>AlfaTech</h1>
+                    <p>Soluções em hospedagem</p>
+                </div>
             </div>
             <div class="menu">
                 <ul>
-                    <li>INFORMAÇÕES</li>
-                    <li>PLANOS</li>
-                    <li>PREÇOS</li>
-                    <li>CONTATOS</li>
+                    <a href="#informacao"><li>INFORMAÇÕES</li></a>
+                    <a href="#planos"><li>PLANOS</li></a>
+                    <a href=""><li>PREÇOS</li></a>
+                    <a href="#contato"><li>CONTATOS</li></a>
                 </ul>
-
             </div>
         </div>
     </header>
@@ -38,7 +45,7 @@
             <p> Também temos planos gratuitos. Adquira já o seu.</p>
              <a href="">TABELA DE PREÇOS</a>
         </div>
-        <div class="informacoes">
+        <div id="informacao" class="informacoes">
             <div>
                  <h2>Existem diversos serviços de hospedagem de sites. Porque você deve nos escolher?</h2>
             </div>
@@ -60,7 +67,7 @@
                 </div>
             </div>
         </div>
-        <div class="tabela_preco">
+        <div id="planos" class="tabela_preco">
             <h2>Pague somente pelo que for usar. Sem cobranças adicionais!</h2>
             <table>
                 <tr>
@@ -124,7 +131,7 @@
             <a href="">TABELA DE PREÇOS</a>
         </div>
     </main>
-    <footer>
+    <footer id="contato">
         <img src="img/logo-icone.png" alt="Logo Hospedagem">
         <h1>AlfaTech</h1>
         <p>Soluções em hospedagem</p>
