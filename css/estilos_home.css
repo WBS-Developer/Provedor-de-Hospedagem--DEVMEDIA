@@ -73,3 +73,28 @@ header{
     color: #fff;
     margin: 20px 0px;
 }
+.primeiro_anuncio{
+    padding: 40px 0px;
+    background-color: #233032;
+
+}
+.container_primeiro_anuncio{
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container_primeiro_anuncio_texto{
+    width: 600px;
+    color: #fff;
+}
+.container_primeiro_anuncio a{
+    width: 200px;
+    background-color: #2f86d6;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
