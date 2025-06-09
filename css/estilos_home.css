@@ -88,13 +88,29 @@ header{
     width: 600px;
     color: #fff;
 }
-.container_primeiro_anuncio a{
-    width: 200px;
+.container_primeiro_anuncio_texto h3{
+    font-size: 24px;
+}
+.container_primeiro_anuncio_texto p{
+    font-size: 16px;
+}
+.container_primeiro_anuncio_link{
     background-color: #2f86d6;
+    width: 200px;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    
 }
-
+.container_primeiro_anuncio_link img{
+    margin-right: 10px;
+    
+}   
+.container_primeiro_anuncio_link a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+} 
