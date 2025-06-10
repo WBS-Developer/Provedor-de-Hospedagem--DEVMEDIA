@@ -114,3 +114,36 @@ header{
     color: #fff;
     font-size: 16px;
 } 
+.informacoes{
+    background-color: antiquewhite;
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+}
+.container_informacoes{
+    background-color:  #fff;
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.informacoes_titulo{
+    
+
+}
+.informacoes_img{
+    display: flex;
+    justify-content: space-between;
+}
+.informacoes_img img {
+    width: 150px;
+    height: 150px;
+}   
+.informacoes_titulo_img{
+    display: flex;
+}
+.informacoes_descricao_img{
+    display: flex;
+
+}
