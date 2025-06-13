@@ -130,42 +130,34 @@ header{
     align-items: center;
 }
 .informacoes_titulo{
-    
-    width: 1000px;
+    width: 700px;
     text-align: center;
-    margin-bottom: 50px;   
-    font-size: 23px;
-
+    margin-bottom: 50px;
 }
 .informacoes_titulo span{
-    color: #2f86d6 ;
+    color: #2f86d6;
 }
-.informacoes_img{
-    width:1024px;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 40px;
-}
-.informacoes_img img {
-    width: 100px;
-    height: 100px;
-}   
-.informacoes_titulo_img{
-    
+.container_informacao_card{
     width: 1024px;
     display: flex;
     justify-content: space-around;
-    font-size: 18px;
-    margin-bottom: 30px;
 }
-.informacoes_descricao_img{
-    
-    width:1000px;
-    display: flex;
-    justify-content: space-between;
-
-}
-.informacoes_descricao_img p{
+.card_informacao{
     width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card_informacao img{
+    width: 150px;
+    height: 150px;
+}
+.card_informacao h3{
+     margin: 20px 0px;
+}
+.card_informacao p{
     text-align: center;
+}
+.tabela_preco{
+    background-color: #f6f6f6;
 }
