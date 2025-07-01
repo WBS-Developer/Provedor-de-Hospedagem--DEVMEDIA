@@ -158,6 +158,56 @@ header{
 .card_informacao p{
     text-align: center;
 }
-.tabela_preco{
+.planos{
     background-color: #f6f6f6;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.planos h2{
+    margin-bottom: 70px;
+    font-size: 32px;
+}
+.planos span{
+    color: #2f86d6;
+}
+table{
+    
+    width: 1024px;
+    display: flex;
+    box-shadow: 0px 0px 50px 15px rgba(47, 134, 214, 2);
+}
+table img{
+    width: 100px;
+    height: 100px;
+}
+table tr{
+    
+    height: 50px;  */ 
+}
+table th h3{
+    margin: 20px;
+}
+table th p{
+   
+    width: 140px;
+    font-weight: normal;
+    font-size: 13px;
+    color: #a89f9f;
+    margin: 15px 50px;
+    
+}   
+table td{
+    
+    width: 1024px;
+    text-align: center;
+    
+}
+table tr:nth-of-type(even){
+   background-color:  #f6f6f6;
+}
+table tr:nth-of-type(odd){
+   background-color: #F1F3F7
 }
