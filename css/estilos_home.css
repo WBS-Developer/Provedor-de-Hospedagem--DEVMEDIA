@@ -199,6 +199,7 @@ table th p{
     font-size: 13px;
     color: #a89f9f;
     margin: 15px 50px;
+    font-weight: bold;
     
 }   
 table td{
@@ -208,9 +209,10 @@ table td{
     
 }
 table tr:nth-of-type(even){
-   background-color:  #f6f6f6;
+   background-color: #f0ecec;
 }
 table tr:nth-of-type(odd){
+    
    background-color: #F1F3F7
 }
 .segundo_anuncio{
@@ -252,5 +254,42 @@ table tr:nth-of-type(odd){
      
 
 }
+container_rodape{
+    display: flex;
+}
+.container_rodape_01{
+    width: 320px;
+    margin: auto;
+    display: flex;
+    padding: 50px 0;
     
+}
+.container_rodape_01 img{
+    width:80px;
+    height:80px;
+    margin-right: 20px;
+}
+.container_rodape_01 p{
+    color: #2f86d6;
+    font-weight: bold;
+}
+.container_rodape_02{
+   text-align: center;
+   padding-bottom: 30px;
+   font-weight: bold;
+}
+.container_rodape_02 p{
+
+     padding: 10px;
+
+}
+.container_rodape_03{
+    background-color: #f0ecec;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+.container_rodape_03 span{
+    color: #2f86d6;
+}    
 
