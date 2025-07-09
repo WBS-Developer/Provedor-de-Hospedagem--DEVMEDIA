@@ -40,7 +40,6 @@ header{
  margin: 10px;
  list-style: none;
  font-weight: bold;
- 
 }
 .menu a{
     text-decoration: none;
@@ -253,9 +252,6 @@ table tr:nth-of-type(odd){
  height: 20px;
      
 
-}
-container_rodape{
-    display: flex;
 }
 .container_rodape_01{
     width: 320px;
