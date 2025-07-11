@@ -186,7 +186,7 @@ table img{
 }
 table tr{
     
-    height: 50px;  */ 
+    height: 50px;  
 }
 table th h3{
     margin: 20px;
@@ -194,8 +194,7 @@ table th h3{
 table th p{
    
     width: 140px;
-    font-weight: normal;
-    font-size: 13px;
+   font-size: 13px;
     color: #a89f9f;
     margin: 15px 50px;
     font-weight: bold;
